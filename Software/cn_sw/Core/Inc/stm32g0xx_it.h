@@ -48,6 +48,7 @@
 /* Exported functions prototypes ---------------------------------------------*/
 void NMI_Handler(void);
 void HardFault_Handler(void);
+void USB_UCPD1_2_IRQHandler(void);
 void TIM1_BRK_UP_TRG_COM_IRQHandler(void);
 /* USER CODE BEGIN EFP */
 
